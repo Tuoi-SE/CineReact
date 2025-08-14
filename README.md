@@ -1,72 +1,80 @@
-This is the repo i save the in class project
+<h1 align="center">🎬 XEMZUI - Nền tảng xem phim trực tuyến 🎉</h1>
 
-# Getting Started with Create React App
+<p align="center">
+  <img src="https://img.shields.io/badge/Vite-React-blueviolet?style=flat-square" />
+  <img src="https://img.shields.io/badge/Web%20Development-Final%20Project-brightgreen?style=flat-square" />
+  <img src="https://img.shields.io/badge/VLU-K28-red?style=flat-square" />
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="https://cdn.haitrieu.com/wp-content/uploads/2022/12/Icon-Dai-Hoc-Van-Lang.png" alt="Logo Đại học Văn Lang" width="120" />
 
-## Available Scripts
+  ___
+</p>
 
-In the project directory, you can run:
+## 📝 Giới thiệu
 
-### `npm start`
+**XEMZUI** là nền tảng xem phim trực tuyến được phát triển bởi **Nhóm 02** trong khuôn khổ đồ án cuối kỳ môn **Chuyên đề lập trình web** – học kỳ 242, dành cho sinh viên **K28 Trường Đại học Văn Lang**.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Dự án mang đến trải nghiệm xem phim hiện đại, thân thiện và tiện lợi với nhiều tính năng như đăng nhập, đánh giá phim, tìm kiếm thông minh và phân loại phim theo chủ đề.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🚀 Chức năng nổi bật
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 🎥 **Danh sách phim nổi bật, trending**
+- 🧠 **Phân loại phim theo thể loại**
+- 🔍 **Tìm kiếm thông minh (basic + nâng cao)**
+- 🧾 **Chi tiết phim, trailer, mô tả**
+- ⭐ **Đánh giá & nhận xét phim**
+- ❤️ **Thêm vào danh sách yêu thích**
+- 🔐 **Đăng ký / Đăng nhập người dùng**
+- 👤 **Hồ sơ cá nhân của người dùng**
+- 🛠️ **Quản lý người dùng (Admin)**
+- 🎬 **Quản lý kho phim (Admin)**
+- 🧭 **Giao diện hiện đại: header, footer, navbar, click-to-top**
+- 📺 **Xem phim trực tiếp**
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 👥 Thành viên nhóm 02
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Họ tên       | Chức năng đảm nhiệm |
+|--------------|---------------------|
+| **Tươi**     | - Danh sách phim<br> - Top banner<br> - Phân loại chủ đề<br> - Quản lý phim |
+| **Hoài**     | - Rating & Review<br> - Top trending<br> - Chi tiết phim<br> - Yêu thích<br> - Duyệt tìm |
+| **Bảo**      | - Đăng nhập / Đăng ký<br> - Quản lý user<br> - Hồ sơ người dùng |
+| **Linh**     | - Tìm kiếm cơ bản<br> - Header, footer, navbar<br> - Click to top<br> - Xem phim |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🏫 Thông tin học phần
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- 📚 **Môn học**: Chuyên đề lập trình web  
+- 🎓 **Lớp**: K28  
+- 🏛️ **Trường**: Đại học Văn Lang  
+- 📅 **Học kỳ**: 242  
+- 👨‍👩‍👧‍👦 **Nhóm**: 02  
+- 👨‍🏫 **GV hướng dẫn**: Nguyễn Thị Thanh
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📂 Công nghệ sử dụng
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- ⚡ [Vite](https://vitejs.dev/)  
+- ⚛️ [ReactJS](https://reactjs.org/)  
+- 💅 [Tailwind CSS](https://tailwindcss.com/) 
+- 🔐 [React Router](https://reactrouter.com/)  
+- 🧠 [Context API / Zustand / Redux]* *(tuỳ theo nhóm dùng gì)*  
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📌 Ghi chú
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Dự án có thể được triển khai cục bộ hoặc deploy trên nền tảng như **Vercel**, **Netlify**, hoặc **GitHub Pages**.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h1 align="center">
+  💡 <em>“XEMZUI - Xem phim theo cách của bạn!”</em> 🍿
+</h1>
